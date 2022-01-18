@@ -10,13 +10,16 @@ body {
     display: grid;
     place-content: center;
     height:100vh;
+    background: url(images/pattern-background-desktop.svg) no-repeat ;
+    background-color: hsl(225, 100%, 98%);
+
 }
 
 .card {
-    border: 1px red solid;
+    border: 1px;
     width:350px;
     height:520px;
-    background: #fff;
+    background-color: white;
     border-radius: 20px;
     margin: auto;
 }
@@ -26,3 +29,47 @@ img[src*='illustration-hero'] {
     width: 350px;
     border-radius: 20px 20px 0 0;
 }
+
+
+/* Decoration of container */
+
+.title1 {
+    font-weight: 900;
+    margin: 60px 0 25px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+.icon_music {
+
+}
+
+.titleSub {
+    font-weight: 900;   
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+
+}
+
+.change {
+
+} 
+
+/* Box du price plan */
+
+.box_plan {
+    border:  1px solid black;
+    display: flex;
+    margin: 20px 50px;
+    padding: 20px;
+
+}
+
+
