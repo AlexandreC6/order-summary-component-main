@@ -17,7 +17,7 @@ body {
  /* La carte */
 .card {
     border: 1px;
-    width:350px;
+    width:450px;
     height:auto;
     background-color: white;
     border-radius: 20px;
@@ -26,7 +26,7 @@ body {
 
 
 img[src*='illustration-hero'] {
-    width: 350px;
+    width: 450px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -34,7 +34,7 @@ img[src*='illustration-hero'] {
 /* Decoration of container */
 .title1 {
     font-weight: 900;
-    margin: 60px 0 25px 0;
+    margin: 30px 0 25px 0;
     text-align: center;
     font-size: 20px;
 }
@@ -50,10 +50,10 @@ img[src*='illustration-hero'] {
     display: flex;
     margin: 20px;
     padding: 20px 0;
-    width: 300px;
-    align-items: center;    
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;    
     text-align: left;
-    justify-content: space-evenly;
     font-size: 0.8em;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
