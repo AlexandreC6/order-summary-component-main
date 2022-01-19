@@ -32,7 +32,6 @@ img[src*='illustration-hero'] {
 
 
 /* Decoration of container */
-
 .title1 {
     font-weight: 900;
     margin: 60px 0 25px 0;
@@ -44,6 +43,8 @@ img[src*='illustration-hero'] {
     color: hsl(224, 23%, 55%);
     text-align: center;
 }
+/*
+
 
 .icon_music {
 
@@ -61,15 +62,35 @@ img[src*='illustration-hero'] {
 .change {
 
 } 
-
+ */
 /* Box du price plan */
 
 .box_plan {
     border:  1px solid black;
     display: flex;
-    margin: 20px 50px;
-    padding: 20px;
+    margin: 20px;
+    padding: 0;
+    width: 300px;
+    align-items: center;    
+    text-align: left;
+    justify-content: space-evenly;
+    font-size: 0.8em;
+    
+}
+
+.icon_music {
+
 
 }
 
+.titleSub {
+
+}
+
+.price {
+}
+
+.change {
+
+}
 
